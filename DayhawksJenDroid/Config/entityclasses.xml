@@ -1,0 +1,24 @@
+<configs>
+	<append xpath="/entity_classes">		
+		<entity_class name="Jenny" extends="animalStag">		
+			<property name="Tags" value="entity,human,npc,trader,player,animal,deer,perkAT04,perkAT05"/>		
+			<property name="Mesh" value="#Entities/Traders?JenLung2Ragdoll.prefab"/>
+			<property name="NPCID" value="Jenny"/>
+			<property name="Prefab" value="NPC"/>
+			<property name="IsEnemyEntity" value="false"/>
+			<property name="SoundHurt" value="Player_Female/player2painlg"/>
+			<property name="SoundHurtSmall" value="Player_Female/player2painsm"/>
+			<property name="SoundDeath" value="Player_Female/player2death"/>
+			<property name="SoundStamina" value="Player_Female/player2stamina"/>
+			<property name="SoundDrownPain" value="Player_Female/player2drownpain"/>
+			<property name="SoundWaterSurface" value="Player_Female/player2drownsurface"/>
+			<property name="SoundDrownDeath" value="Player_Female/player2drowndeath"/>
+			<property name="SoundJump" value="Player_Male/player2Jump"/>
+			<property name="SoundLandSoft" value="Player_Male/player2LandSoft"/>
+			<property name="SoundLandHard" value="Player_Male/player2LandHard"/>
+			<effect_group name="Base Effects">					
+				<triggered_effect trigger="onSelfFirstSpawn" action="AddBuff" target="self" buff="buffJennyHealPlayer1"/>		
+			</effect_group>
+		</entity_class>
+	</append>
+</configs>

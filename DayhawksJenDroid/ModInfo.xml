@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DayhawksPlayerTrader" />
+		<Description value="This modlet adds a trader the player can craft for their own base." />
+		<Author value="Dayhawk" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>

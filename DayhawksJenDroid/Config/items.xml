@@ -1,0 +1,28 @@
+<configs>
+	<append xpath="/items">
+		<item name="AndroidJenHead">
+			<property name="Extends" value="resourceElectricParts"/>	
+			<property name="CustomIcon" value="armorScrapHelmet"/>
+			<property name="CustomIconTint" value="52, 232, 235"/>
+			<property name="Stacknumber" value="1"/>
+		</item>
+		<item name="AndroidJenBody">
+			<property name="Extends" value="resourceElectricParts"/>	
+			<property name="CustomIcon" value="armorScrapChest"/>
+			<property name="CustomIconTint" value="52, 232, 235"/>
+			<property name="Stacknumber" value="1"/>
+		</item>
+		<item name="AndroidJenArms">
+			<property name="Extends" value="resourceElectricParts"/>
+			<property name="CustomIcon" value="armorScrapGloves"/>
+			<property name="CustomIconTint" value="52, 232, 235"/>
+			<property name="Stacknumber" value="1"/>
+		</item>
+		<item name="AndroidJenLegs">
+			<property name="Extends" value="resourceElectricParts"/>
+			<property name="CustomIcon" value="armorScrapLegs"/>
+			<property name="CustomIconTint" value="52, 232, 235"/>
+			<property name="Stacknumber" value="1"/>
+		</item>
+	</append>	
+</configs>

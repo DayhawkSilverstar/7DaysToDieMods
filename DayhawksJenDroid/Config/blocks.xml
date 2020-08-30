@@ -1,0 +1,38 @@
+<configs>
+	<append xpath="/blocks" >
+		<block name="JenDroid">
+			<property name="Extends" value="decoMannequinFemale"/>
+			<property name="Model" value="Entities/Commercial/mannequinFemalePrefab"/>		
+			<property name="CustomIcon" value="cntChest02"/>
+			<property name="CustomIconTint" value="ff8080"/>
+			<property name="StabilitySupport" value="true"/>
+			 <property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.Next" value="JenDroid2"/>
+			<property name="PlantGrowing.GrowOnTop" value="JenSpawner" />
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.01"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+		</block>	
+		<block name="JenSpawner">
+			<property name="Material" value="JenSpawnerMaterials"/>
+			<property name="Extends" value="spawnTrader"/>
+			<property name="Shape" value="ModelEntity"/>			
+			<property name="Model" value="Entities/Decor/cobwebPrefab"/>	
+			<drop event="Fall" count="0" prob="0"/>		
+			<property name="SpawnClass" value="Jenny"/>			
+		</block>
+		<block name="JenDroid2">
+			<property name="Extends" value="looseBoardsTrapPlate1x1"/>			
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.Next" value="looseBoardsTrapPlate1x1"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+		</block>
+	</append>
+
+</configs>

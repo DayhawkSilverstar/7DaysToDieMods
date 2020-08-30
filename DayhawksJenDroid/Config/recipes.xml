@@ -1,0 +1,38 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="JenDroid" count="1" craft_area="workbench" tags="learnable,Android">
+			<ingredient name="AndroidJenHead" count="1"/>
+			<ingredient name="AndroidJenBody" count="1"/>
+			<ingredient name="AndroidJenArms" count="1"/>			
+			<ingredient name="AndroidJenLegs" count="1"/>			
+		</recipe>
+		<recipe name="AndroidJenHead" count="1" craft_area="workbench" tags="learnable,Android">
+			<ingredient name="gunBotRoboticsParts" count="3"/>
+			<ingredient name="resourceForgedSteel" count="10"/>			
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceLeather" count="4"/>			
+		</recipe>
+		<recipe name="AndroidJenBody" count="1" craft_area="workbench" tags="learnable,Android">
+			<ingredient name="gunBotRoboticsParts" count="3"/>
+			<ingredient name="vehicleBicycleChassis" count="1"/>			
+			<ingredient name="electrictimerrelay" count="5"/>
+			<ingredient name="carBattery" count="1"/>
+			<ingredient name="switch" count="1"/>				
+		</recipe>
+		<recipe name="AndroidJenArms" count="1" craft_area="workbench" tags="learnable,Android">
+			<ingredient name="gunBotRoboticsParts" count="3"/>
+			<ingredient name="resourceForgedSteel" count="10"/>			
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceLeather" count="4"/>					
+		</recipe>	
+		<recipe name="AndroidJenLegs" count="1" craft_area="workbench" tags="learnable,Android">
+			<ingredient name="gunBotRoboticsParts" count="3"/>
+			<ingredient name="resourceForgedSteel" count="10"/>			
+			<ingredient name="resourceScrapPolymers" count="20"/>
+			<ingredient name="resourceSpring" count="15"/>
+			<ingredient name="resourceLeather" count="4"/>					
+		</recipe>	
+	</append>
+</configs>
