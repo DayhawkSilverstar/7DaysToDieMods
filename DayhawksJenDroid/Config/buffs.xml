@@ -3,8 +3,9 @@
 		<buff name="buffJennyHealPlayer1" hidden="false">
 			<duration value="1"/>
 			<effect_group>				
-				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="positionAOE" range="2" buff="buffHealHealth"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="positionAOE" range="2" buff="buffLegGetsBetter"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="positionAOE" range="3" buff="buffHealHealth"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="positionAOE" range="3" buff="buffLegGetsBetter"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="positionAOE" range="3" buff="buffArmGetsBetter"/>
 				<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffJennyHealPlayer2"/>				
 			</effect_group>
 		</buff>
@@ -12,27 +13,35 @@
 			<duration value="1"/>
 			<effect_group>								
 				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="positionAOE" range="3" buff="buffHealHealth"/>
-				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="positionAOE" range="3" buff="buffLegGetsBetter"/>		
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="positionAOE" range="3" buff="buffLegGetsBetter"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="positionAOE" range="3" buff="buffArmGetsBetter"/>
 				<triggered_effect trigger="onSelfBuffFinish" action="AddBuff" buff="buffJennyHealPlayer1"/>
 			</effect_group>
 		</buff>
 		
-		<buff name="buffLegGetsBetter" name_key="buff Leg Gets Better" icon="ui_game_symbol_brokenbone" icon_color="255,128,0" hidden="false">
+		<buff name="buffLegGetsBetter" name_key="buff Leg Gets Better" icon="ui_game_symbol_brokenbone" icon_color="65, 252, 3" hidden="false">
 			<stack_type value="ignore"/>
 			<update_rate value="1"/>						
 			<effect_group>
 				<!-- This should make sure that the leg hurt counter is greater than 0 -->
 				<requirement name="CVarCompare" cvar="$legHurtCounter" operation="GT" value="0"/>						
-					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$legHurtCounter" operation="subtract" value="1.75"/>
-					<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffLegGetsBetter"/>	
-			</effect_group>					
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$legHurtCounter" operation="subtract" value="1.75"/>					
+			</effect_group>
+			<effect_group>		
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffLegGetsBetter"/>
+			</effect_group>	
 		</buff>
 
-		<buff name="buffArmGetsBetter" name_key="buff Arm Gets Better" icon="ui_game_symbol_brokenbone" icon_color="255,128,0" hidden="false">
+		<buff name="buffArmGetsBetter" name_key="buff Arm Gets Better" icon="ui_game_symbol_broken_arm" icon_color="65, 252, 3" hidden="false">
 			<stack_type value="ignore"/>
-			<duration value="0.5"/>
+			<update_rate value="1"/>						
 			<effect_group>
-				<passive_effect name="BuffBlink" operation="base_subtract" value="2" tags="buffArmSprained,buffArmBroken,buffArmSplinted,buffArmCast"/>
+				<!-- This should make sure that the leg hurt counter is greater than 0 -->
+				<requirement name="CVarCompare" cvar="$armHurtCounter" operation="GT" value="0"/>						
+					<triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$armHurtCounter" operation="subtract" value="1.75"/>					
+			</effect_group>
+			<effect_group>				
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffArmGetsBetter"/>
 			</effect_group>
 		</buff>
 	</append>

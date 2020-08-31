@@ -6,7 +6,9 @@
 			<property name="CustomIcon" value="cntChest02"/>
 			<property name="CustomIconTint" value="ff8080"/>
 			<property name="StabilitySupport" value="true"/>
-			 <property name="Class" value="PlantGrowing"/>
+			<property name="DescriptionKey" value="JenDroidDesc"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Class" value="PlantGrowing"/>
 			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
 			<property name="PlantGrowing.Next" value="JenDroid2"/>
 			<property name="PlantGrowing.GrowOnTop" value="JenSpawner" />

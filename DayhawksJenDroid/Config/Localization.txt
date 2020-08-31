@@ -1,0 +1,13 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+AndroidJenHead,items,,,,Android Jen's Head
+AndroidJenHeadDesc,items,,,,This is the head of the JenDroid. It has a very basic medical AI.
+AndroidJenBody,items,Block,X1,desc1,Android Jen's Body,desc2,desc3
+AndroidJenBodyDesc,items,,,,This is body of the JenDroid. It is the core to the android. The body provides power and drives the locomotion.
+AndroidJenArms,items,Block,X1,desc1,Android Jen's Arms,desc2,desc3
+AndroidJenArmsDesc,items,,,,These arms of the JenDroid. She is very articulate and can perform delicate operations.
+AndroidJenLegs,items,Block,X1,desc1,Android Jen's legs,desc2,desc3
+AndroidJenLegsDesc,items,,,,These are the legs of the JenDroid. She moves very slowly.
+JenDroid,items,Block,X1,desc1,Jen Droid,desc2,desc3
+JenDroidDesc,items,,,,"This is a finished JenDroid. She has a medical AI and assists in healing, setting breaks, and soothing sprains. JenDroid likes to keep moving and can be destroyed so you must protect her."
+
+
