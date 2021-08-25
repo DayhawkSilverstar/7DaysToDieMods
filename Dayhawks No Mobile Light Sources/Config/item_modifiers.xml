@@ -1,0 +1,5 @@
+<configs>
+	<remove xpath="/item_modifiers/item_modifier[@name='modArmorHelmetLight']" />
+	<remove xpath="/item_modifiers/item_modifier[@name='modMeleeClubBurningShaft']" />
+	<remove xpath="/item_modifiers/item_modifier[@name='modGunFlashlight']" />
+</configs>

@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+ChickenNest,items,,,,Homemade Nest
+ChichenNestDesc,items,,,,"This recipe allows you to make a nest for hatching your very own chicken. Your chicken will take a bit of time to hatch. Beware, once hatched it will run away."
+ChickenHatchery,items,,,,Chicken Hatchery
+ChickenHatcheryDesc,items,,,,"Great, you have a dozen eggs. Now it's time to make a coop and a hatchery. Place your hatchery in the coop and let there be chickens!"

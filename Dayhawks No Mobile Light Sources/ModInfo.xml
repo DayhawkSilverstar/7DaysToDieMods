@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="No Mobile Light Sources" />
+		<Description value="This removes light sources that players can carry outside of the torch." />
+		<Author value="Dayhawk" />
+		<Version value="1.0" />
+		
+	</ModInfo>
+</xml>

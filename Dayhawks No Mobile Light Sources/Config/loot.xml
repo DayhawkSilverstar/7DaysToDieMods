@@ -1,0 +1,58 @@
+<configs>
+
+	<!-- Remove the helmet light -->
+	<removeattribute  xpath="/lootcontainers/lootgroup[@name='prefabQuestLoot']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/lootcontainers/lootgroup[@name='prefabQuestLoot']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT1']/item[@name='modArmorHelmetLightSchematic']" />
+	
+	<remove xpath="/lootcontainers/lootgroup[@name='modArmorT1']/item[@name='modArmorHelmetLight']" />	
+	
+	<removeattribute  xpath="/lootcontainers/lootgroup[@name='groupQuestArmorT2']/item[@name='armorMilitaryHelmet']/@mods"/>
+	<removeattribute  xpath="/lootcontainers/lootgroup[@name='groupQuestArmorT2']/item[@name='armorMilitaryHelmet']/@mod_chance"/>	
+	
+	<removeattribute  xpath="/lootcontainers/lootgroup[@name='groupQuestArmorT2']/item[@name='armorSwatHelmet']/@mods"/>
+	<removeattribute  xpath="/lootcontainers/lootgroup[@name='groupQuestArmorT2']/item[@name='armorSwatHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/lootcontainers/lootgroup[@name='groupQuestArmorT2']/item[@name='armorSwatHelmet']/@prob"/>
+
+	<removeattribute  xpath="/lootcontainers/lootgroup[@name='groupQuestArmorT2']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/lootcontainers/lootgroup[@name='groupQuestArmorT2']/item[@name='armorMiningHelmet']/@mod_chance"/>
+
+	<removeattribute  xpath="/lootcontainers/lootgroup[@name='groupAllArmor/Cloth']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/lootcontainers/lootgroup[@name='groupAllArmor/Cloth']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/lootcontainers/lootgroup[@name='groupAllArmor/Cloth']/item[@name='armorMiningHelmet']/@prob"/>
+	
+	<removeattribute  xpath="/lootcontainers/lootcontainer[@id='70']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/lootcontainers/lootcontainer[@id='70']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/lootcontainers/lootcontainer[@id='70']/item[@name='armorMiningHelmet']/@prob"/>
+	
+	<removeattribute  xpath="/lootcontainers/lootcontainer[@id='71']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/lootcontainers/lootcontainer[@id='71']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/lootcontainers/lootcontainer[@id='71']/item[@name='armorMiningHelmet']/@prob"/>
+	
+	<removeattribute  xpath="/lootcontainers/lootcontainer[@id='71']/item[@name='armorSwatHelmet']/@mods"/>
+	<removeattribute  xpath="/lootcontainers/lootcontainer[@id='71']/item[@name='armorSwatHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/lootcontainers/lootcontainer[@id='71']/item[@name='armorSwatHelmet']/@prob"/>
+
+	<removeattribute  xpath="/lootcontainers/lootcontainer[@id='73']/item[@name='armorSwatHelmet']/@mods"/>
+	<removeattribute  xpath="/lootcontainers/lootcontainer[@id='73']/item[@name='armorSwatHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/lootcontainers/lootcontainer[@id='73']/item[@name='armorSwatHelmet']/@prob"/>
+	
+
+	<!-- Remove the burning shaft -->
+	<remove xpath="/lootcontainers/lootgroup[@name='modMeleeT2']/item[@name='modMeleeClubBurningShaft']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']/item[@name='modMeleeClubBurningShaftSchematic']" />
+	
+	<!-- Remove the weapon flashlight -->
+	<remove xpath="/lootcontainers/lootgroup[@name='modGunT1']/item[@name='modGunFlashlight']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='schematicsModsAndGeneralT0']/item[@name='modGunFlashlightSchematic']" />
+	
+	<!-- Remove the flashlight -->
+	<remove xpath="/lootcontainers/lootgroup[@name='automotive']/item[@name='meleeToolFlashlight02']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='sportingGoods']/item[@name='meleeToolFlashlight02']" />
+	<remove xpath="/lootcontainers/lootgroup[@name='backpacks/survival']/item[@name='meleeToolFlashlight02']" />
+	
+	<remove xpath="/lootcontainers/lootcontainer[@id='24']/item[@name='meleeToolFlashlight02']" />
+	<remove xpath="/lootcontainers/lootcontainer[@id='36']/item[@name='meleeToolFlashlight02']" />
+	<remove xpath="/lootcontainers/lootcontainer[@id='42']/item[@name='meleeToolFlashlight02']" />
+</configs>

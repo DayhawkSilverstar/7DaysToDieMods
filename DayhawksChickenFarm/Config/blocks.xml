@@ -1,0 +1,141 @@
+<configs>
+	<append xpath="/blocks" >
+		<block name="ChickenHatchery">
+			<property name="Extends" value="hayBaleSquare" />
+			<property name="CustomIcon" value="hayBaleSquare" />
+			<property name="CustomIconTint" value="250, 232, 32"/>			
+			<property name="Texture" value="196"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="ChickenNestBrood1"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value=".1"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="DescriptionKey" value="ChickenHatcheryDesc"/>
+			<property name="MultiBlockDim" value="2,3,1"/>
+		</block>
+		<block name="ChickenNestBrood1">
+			<property name="Extends" value="hayBaleSquare" />			
+			<property name="CustomIcon" value="hayBaleSquare" />
+			<property name="CustomIconTint" value="ff8080"/>			
+			<property name="Texture" value="196"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.GrowOnTop" value="ChickenNest1" />
+			<property name="PlantGrowing.Next" value="ChickenNestBrood2"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value=".1"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="DescriptionKey" value="ChichenNestClutchDesc"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+		</block>	
+		<block name="ChickenNestBrood2">
+			<property name="Extends" value="hayBaleSquare" />			
+			<property name="CustomIcon" value="hayBaleSquare" />
+			<property name="CustomIconTint" value="ff8080"/>			
+			<property name="Texture" value="196"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="ChickenNestBrood1"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="30"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="DescriptionKey" value="ChichenNestClutchDesc"/>
+			<property name="MultiBlockDim" value="2,1,1"/>
+		</block>	
+		<block name="ChickenNest">
+			<property name="Extends" value="cntBirdnest" />
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Model" value="#Entities/LootContainers?birdnestPrefab.prefab"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="CustomIcon" value="cntBirdnest" />
+			<property name="CustomIconTint" value="250, 206, 32"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="ChickenNest1"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value=".1"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="DescriptionKey" value="ChichenNestDesc"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+		</block>		
+		<block name="chickenBlock">
+			<property name="Material" value="Mleaves"/>
+			<property name="Extends" value="spawnTrader"/>			
+			<property name="Shape" value="ModelEntity"/>
+			<property name="StabilitySupport" value="false"/>			
+			<property name="Model" value="Entities/Decor/cobwebPrefab"/>	
+			<drop event="Fall" count="0"/>
+			<property name="SpawnClass" value="animalChickenHatched"/>
+			<property name="Shape" value="Invisible"/>
+			<property name="ShowModelOnFall" value="false"/>
+		</block>	
+		<block name="ChickenNest1">
+			<property name="Extends" value="cntBirdnest" />
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Model" value="#Entities/LootContainers?birdnestPrefab.prefab"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="CustomIcon" value="cntBirdnest" />
+			<property name="CustomIconTint" value="ff8080"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+			<property name="PlantGrowing.GrowOnTop" value="chickenBlock" />
+			<property name="PlantGrowing.Next" value="ChickenNest2"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="30"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<property name="DescriptionKey" value="ChichenNestDesc"/>
+		</block>		
+		<block name="ChickenNest2">
+			<property name="Extends" value="cntBirdnest"/>
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Model" value="#Entities/LootContainers?birdnestPrefab.prefab"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="CustomIconTint" value="ff8080"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="CanPickup" value="false"/>
+			<property name="Stacknumber" value="1"/> 
+			<property name="Class" value="PlantGrowing"/>
+			<property name="PlantGrowing.Next" value="cntBirdnestDeco"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value=".1"/>
+			<property name="PlantGrowing.IsRandom" value="false"/>
+			<drop event="Harvest" name="resourceCloth" count="1" prob="0.3" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceFeather" count="3" prob="0.35" tag="allHarvest"/>
+			<drop event="Harvest" name="resourceFeather" count="2" prob="0.6" tag="allHarvest"/>
+			<drop event="Destroy" name="resourceYuccaFibers" count="2,8"/>
+		</block>		
+		<block name="cntBirdnestDeco">
+			<!-- Can't use the 1x1 loose board because the chicken doesn't seem to trigger it to break -->
+			<property name="Extends" value="mineCandyTin"/>
+			<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+			<property name="Model" value="#Entities/LootContainers?birdnestPrefab.prefab"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="MaxDamage" value="1"/>
+			<property name="TriggerDelay" value="0.0"/>
+			<property name="TriggerSound" value=""/>
+			<property name="Explosion.ParticleIndex" value="0"/>
+			<property name="Explosion.RadiusBlocks" value="2"/>
+			<property name="Explosion.RadiusEntities" value="1"/>
+			<property name="Explosion.BlockDamage" value="1"/>
+			<property name="Explosion.EntityDamage" value="1"/>
+			<property name="Explosion.DamageBonus.stone" value="0.1"/>
+			<property name="Explosion.DamageBonus.metal" value="0.1"/>
+			<property name="Explosion.DamageBonus.earth" value="0"/>
+			<property name="Explosion.DamageBonus.wood" value="0"/>
+			<property name="Explosion.DamageBonus.water" value="0"/>			
+		</block>		
+	</append>
+</configs>

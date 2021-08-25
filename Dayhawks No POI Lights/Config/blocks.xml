@@ -1,0 +1,788 @@
+<configs>
+	<!-- First we modify the existing POI Lights
+		1) Change their class to PlantGrowing
+		2) Add the growing properties 
+		3) Add the vanilla blocks back in using a "b" at the end of their block name.
+		4) Remove the models from the "LIT" signs so they are unlit models. -->
+		
+
+		<set xpath="/blocks/block[@name='porchLight01']/property[@name='Class']/@value">PlantGrowing</set>		
+		<insertAfter xpath="/blocks/block[@name='porchLight01']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="porchLight01b"/>
+		</insertAfter>
+		
+		<insertAfter xpath="/blocks/block[@name='porchLight04']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="porchLight04b"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='porchLight04Brass']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="porchLight04Brassb"/>
+		</insertAfter>
+		
+		<insertAfter xpath="/blocks/block[@name='ceilingLight01']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="ceilingLight01b"/>
+		</insertAfter>
+		
+		<insertAfter xpath="/blocks/block[@name='ceilingLight02']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="ceilingLight02b"/>
+		</insertAfter>
+		
+		<insertAfter xpath="/blocks/block[@name='ceilingLight02Brass']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="ceilingLight02Brassb"/>
+		</insertAfter>
+		
+
+		<insertAfter xpath="/blocks/block[@name='ceilingLight04']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="ceilingLight04b"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='ceilingLight05']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="ceilingLight05b"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='ceilingLight05Brass']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="ceilingLight05Brassb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='recessedLight']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="recessedLightb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='wallLight01']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="wallLight01b"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='ceilingLight07']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="ceilingLight07b"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='fluorescentLight']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="fluorescentLightb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='trackLight']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="trackLightb"/>
+		</insertAfter>
+
+		<set xpath="/blocks/block[@name='industrialLight01']/property[@name='Class']/@value">PlantGrowing</set>		
+		<insertAfter xpath="/blocks/block[@name='industrialLight01']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="industrialLight01b"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='sconce1Light']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="sconce1Lightb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='sconce1LightShadow']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="sconce1LightShadowb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='lanternDecorLight']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="lanternDecorLightb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='flashlightDecor']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="flashlightDecorb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='industrialLight02']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="industrialLight02b"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='industrialLight02Red']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="industrialLight02Redb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='ceilingFanLight']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="ceilingFanLightb"/>
+		</insertAfter>
+
+		<set xpath="/blocks/block[@name='chandelierLight']/property[@name='Class']/@value">PlantGrowing</set>		
+		<insertAfter xpath="/blocks/block[@name='chandelierLight']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="chandelierLightb"/>
+		</insertAfter>
+
+		<set xpath="/blocks/block[@name='candelabraLight']/property[@name='Class']/@value">PlantGrowing</set>		
+		<insertAfter xpath="/blocks/block[@name='candelabraLight']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="candelabraLightb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='endTableLamp']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="endTableLampb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='signExitLight']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="signExitLightb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='roadBarricadeLight']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="roadBarricadeLightb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='deskLampLight']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="deskLampLightb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='tableLampLight']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="tableLampLightb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='tableLampTippedOverLight']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="tableLampTippedOverLightb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='workLightPOI']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="workLightPOIb"/>
+		</insertAfter>
+
+		<set xpath="/blocks/block[@name='streetLight01']/property[@name='Class']/@value">PlantGrowing</set>		
+		<insertAfter xpath="/blocks/block[@name='streetLight01']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="streetLight01b"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='streetLightClassic']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="streetLightClassicb"/>
+		</insertAfter>
+
+		<set xpath="/blocks/block[@name='spotlightNailedDownPOI']/property[@name='Class']/@value">PlantGrowing</set>			
+		<insertAfter xpath="/blocks/block[@name='spotlightNailedDownPOI']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="spotlightNailedDownPOIb"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='signPillsLogo']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="signPillsLogob"/>
+		</insertAfter>
+
+		<insertAfter xpath="/blocks/block[@name='signPillsLogoSmall']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="signPillsLogoSmallb"/>
+		</insertAfter>
+		
+		<set xpath="/blocks/block[@name='signShopOpen']/property[@name='Class']/@value">PlantGrowing</set>			
+		<insertAfter xpath="/blocks/block[@name='signShopOpen']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="signShopOpenb"/>
+		</insertAfter>
+		
+		<insertAfter xpath="/blocks/block[@name='xRayDisplayLight1']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="xRayDisplayLight1b"/>
+		</insertAfter>
+		
+		<insertAfter xpath="/blocks/block[@name='xRayDisplayLight2']/property[@name='Model']" >
+			<property name="PlantGrowing.LightLevelGrow" value="0"/>
+			<property name="PlantGrowing.LightLevelStay" value="0"/>
+			<property name="PlantGrowing.FertileLevel" value="0"/>
+			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.Next" value="xRayDisplayLight2b"/>
+		</insertAfter>
+
+	<append xpath="/blocks" >
+		<!-- Add in the normal non-growing lights. This is basically of copy of the standard block from blocks.xml with a "b" at the end of the name -->
+		<block name="porchLight01b">
+			<property name="Class" value="Light"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DescriptionKey" value="lightPOIGroupDesc"/>
+			<property name="Material" value="Mmetal_thin"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Light" value="0.5"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<property name="Model" value="Entities/Lighting/porchLight01Prefab"/> <property name="HandleFace" value="West"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property class="RepairItems"> <property name="resourceForgedIron" value="1"/> <property name="resourceElectricParts" value="3"/> </property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="1,4" tag="salvageHarvest"/> <!-- HV: mounted lamp -->
+			<drop event="Destroy" name="resourceScrapIron" count="5"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="TakeDelay" value="-1"/>
+			<property name="Group" value="Science"/>
+			<property name="EconomicValue" value="76"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+		</block>
+
+		<block name="porchLight04b">
+			<property name="Extends" value="porchLight01"/>
+			<property name="CreativeMode" value="Dev"/> <!-- does NOT extend -->
+			<property name="Model" value="Entities/Lighting/porchLight04Prefab"/>
+		</block>
+
+		<block name="porchLight04Brassb">
+			<property name="Extends" value="porchLight01"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/Lighting/porchLight04BrassPrefab"/>
+			<drop event="Destroy" name="resourceScrapBrass" count="10,30"/>
+		</block>
+
+		<block name="ceilingLight01b">
+			<property name="Extends" value="porchLight01"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Material" value="Mglass"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Model" value="Entities/Lighting/ceilingLight01Prefab"/> <property name="HandleFace" value="Top"/>
+			<drop event="Destroy" count="0"/>
+		</block>
+
+		<block name="ceilingLight02b">
+			<property name="Extends" value="porchLight01"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/Lighting/ceilingLight02Prefab"/> <property name="HandleFace" value="Top"/>
+		</block>
+
+		<block name="ceilingLight02Brassb">
+			<property name="Extends" value="porchLight04Brass"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/Lighting/ceilingLight02BrassPrefab"/> <property name="HandleFace" value="Top"/>
+		</block>
+
+		<block name="ceilingLight04b">
+			<property name="Extends" value="porchLight01"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/Lighting/ceilingLight04Prefab"/> <property name="HandleFace" value="Top"/>
+		</block>
+
+		<block name="ceilingLight05b">
+			<property name="Extends" value="porchLight01"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/Lighting/ceilingLight05Prefab"/> <property name="HandleFace" value="Top"/>
+		</block>
+
+		<block name="ceilingLight05Brassb">
+			<property name="Extends" value="porchLight04Brass"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/Lighting/ceilingLight05BrassPrefab"/> <property name="HandleFace" value="Top"/>
+		</block>
+
+		<block name="recessedLightb">
+			<property name="Extends" value="porchLight01"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/Lighting/recessedLightPrefab"/> <property name="HandleFace" value="Top"/>
+		</block>
+
+		<block name="wallLight01b">
+			<property name="Extends" value="porchLight01"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/Lighting/wall_light01Prefab"/> <property name="HandleFace" value="South"/>
+		</block>
+
+		<block name="ceilingLight07b">
+			<property name="Extends" value="porchLight01"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/Lighting/ceilingLight07Prefab"/>
+			<property name="HandleFace" value="Top"/>
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="1"/>
+				<property name="resourceElectricParts" value="3"/>
+				<property name="resourceElectricParts" value="2"/>
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="2,6" tag="salvageHarvest"/> <!-- HV: mounted fluorescent lamp -->
+			<drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+			<property name="EconomicValue" value="191"/>
+		</block>
+
+		<block name="fluorescentLightb">
+			<property name="Extends" value="ceilingLight07" param1="HandleFace"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/Lighting/fluorescentLightPrefab"/>
+			<property name="MultiBlockDim" value="1,1,2"/><property name="DisplayType" value="blockMulti"/>
+			<property name="OnlySimpleRotations" value="true"/>
+		</block>
+
+		<block name="trackLightb">
+			<property name="Extends" value="ceilingLight07"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/Lighting/trackLightPrefab"/>
+			<property name="MultiBlockDim" value="1,1,3"/><property name="DisplayType" value="blockMulti"/>
+		</block>
+
+		<block name="industrialLight01b">
+			<property name="Class" value="Light"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DescriptionKey" value="lightPOIGroupDesc"/>
+			<property name="Group" value="Science"/>
+			<property name="Material" value="Mmetal_thin"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="Light" value="0.5"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<property name="Model" value="Entities/Lighting/industrialLight01Prefab"/> <property name="HandleFace" value="South"/>
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="1"/>
+				<property name="resourceElectricParts" value="3"/>
+				<property name="resourceElectricParts" value="2"/>
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="2,6" tag="salvageHarvest"/> <!-- HV: mounted fluorescent lamp -->
+			<drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="5"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="TakeDelay" value="-1"/>
+			<property name="EconomicValue" value="175"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+		</block>
+
+		<block name="sconce1Lightb">
+			<property name="Extends" value="porchLight01"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/Lighting/sconce_1_Prefab"/>
+		</block>
+
+		<block name="sconce1LightShadowb">
+			<property name="Extends" value="porchLight01"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="CustomIcon" value="sconce1Light"/>
+			<property name="Model" value="Entities/Lighting/sconce_1_ShadowPrefab"/>
+		</block>
+
+		<block name="lanternDecorLightb">
+			<property name="Extends" value="porchLight01"/>
+			<property name="Model" value="Entities/Lighting/lanternDecorPrefab"/>
+		</block>
+
+		<block name="flashlightDecorb">
+			<property name="Extends" value="porchLight01"/>
+			<property name="Model" value="Entities/Lighting/flashlightDecorPrefab"/> <property name="HandleFace" value="Bottom"/>
+		</block>
+
+		<block name="industrialLight02b">
+			<property name="Extends" value="porchLight01"/>
+			<property name="Model" value="Entities/Lighting/industrial_light_02Prefab"/> <property name="HandleFace" value="Top"/>
+		</block>
+
+		<block name="industrialLight02Redb">
+			<property name="Extends" value="porchLight01"/>
+			<property name="Model" value="Entities/Lighting/industrial_light_02_redPrefab"/> <property name="HandleFace" value="Top"/>
+		</block>
+
+		<block name="ceilingFanLightb">
+			<property name="Extends" value="porchLight01"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Entities/Lighting/ceiling_fanPrefab"/> <property name="HandleFace" value="Top"/>
+			<property class="RepairItems">
+				<property name="resourceForgedIron" value="1"/>
+				<property name="resourceElectricParts" value="3"/>
+				<property name="resourceMechanicalParts" value="2"/>
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceMechanicalParts" count="1,2" tag="salvageHarvest"/>
+		</block>
+
+		<block name="chandelierLightb">
+			<property name="Class" value="Light" param1="HandleFace"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DescriptionKey" value="lightPOIGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="ImposterExchange" value="streetLightImposter"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Model" value="Entities/Lighting/chandelierPrefab"/>
+			<property name="MultiBlockDim" value="3,2,3"/><property name="DisplayType" value="blockMulti"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Path" value="solid"/>
+			<property name="ActivationDistance" value="6"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="4,8" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceForgedSteel" count="1,2" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="TakeDelay" value="-1"/>
+			<property name="Group" value="Science,Decor/Miscellaneous"/>
+			<property name="FilterTags" value="fdecor,felectrical,fother,ffurniture"/>
+			<property name="SortOrder1" value="70a0"/>
+		</block>
+
+		<block name="candelabraLightb">
+			<property name="Extends" value="decoEntityMetalMaster" param1="Harvest"/>
+			<property name="Material" value="Mbrass"/>
+			<property name="MeltTimePerUnit" value=".4"/>
+			<property name="Weight" value="83"/>
+			<property name="Class" value="Light"/>
+			<property name="DescriptionKey" value="lightPOIGroupDesc"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Light" value="0.5"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket"/>
+			<property name="Model" value="Entities/Furniture/candelabraPrefab"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property class="RepairItems"> <property name="resourceScrapBrass" value="50"/> </property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceScrapBrass" count="15,25" tag="salvageHarvest"/>
+			<drop event="Destroy" name="candle" count="1,3"/>
+			<property name="TakeDelay" value="-1"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+			<property name="EconomicValue" value="76"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+			<property name="SortOrder1" value="70a0"/>
+		</block>
+
+		<block name="endTableLampb">
+			<property name="Extends" value="porchLight01" param1="HandleFace"/>
+			<property name="DescriptionKey" value="furnitureGroupDesc"/>
+			<property name="Stacknumber" value="3"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Entities/Lighting/end_table_lightPrefab"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+		</block>
+
+		<block name="signExitLightb">
+			<property name="Extends" value="porchLight01"/>
+			<property name="Model" value="Entities/Lighting/exit_signPrefab"/> <property name="HandleFace" value="South"/>
+		</block>
+
+		<block name="roadBarricadeLightb">
+			<property name="Extends" value="porchLight01" param1="HandleFace"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="3,2,1"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="Place" value="TowardsPlacerInverted"/>
+			<property name="Model" value="Entities/Signs/barricadePrefab"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
+			<drop event="Destroy" name="resourceScrapIron" count="3,12"/>
+			<property name="Group" value="Decor/Miscellaneous"/>
+			<property name="FilterTags" value="fdecor,fother,ffurniture,felectrical"/>
+			<property name="DescriptionKey" value="creativeMenuBlockGroupDesc"/>
+		</block>
+
+		<block name="deskLampLightb">
+			<property name="Extends" value="porchLight04Brass" param1="HandleFace"/>
+			<property name="Model" value="Entities/Lighting/desk_lampPrefab"/>
+			<drop event="Destroy" name="resourceScrapBrass" count="8,18"/>
+		</block>
+
+		<block name="tableLampLightb">
+			<property name="Extends" value="porchLight01" param1="HandleFace"/>
+			<property name="Model" value="Entities/Lighting/table_lampPrefab"/>
+		</block>
+
+		<block name="tableLampTippedOverLightb">
+			<property name="Extends" value="porchLight01" param1="HandleFace"/>
+			<property name="Model" value="Entities/Lighting/table_lamp_tipped_overPrefab"/>
+		</block>
+
+		<block name="workLightPOIb">
+			<property name="Extends" value="porchLight01" param1="HandleFace"/>
+			<property name="Model" value="Entities/Lighting/work_lightPrefab"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,2,1"/>
+			<property name="Collide" value="melee,bullet,arrow,rocket,movement"/>
+		</block>
+
+		<block name="streetLight01b">
+			<property name="Class" value="Light" param1="HandleFace"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DescriptionKey" value="lightPOIGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity"/>
+			<property name="ImposterExchange" value="streetLightImposter"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="Model" value="Entities/Lighting/street_light01Prefab"/> <!-- <property name="HandleFace" value="Bottom"/> -->
+			<property name="OnlySimpleRotations" value="true"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="4,8" tag="salvageHarvest"/>
+			<drop event="Harvest" name="resourceForgedSteel" count="1,2" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="TakeDelay" value="-1"/>
+			<property name="Group" value="Science"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+		</block>
+
+		<block name="streetLightClassicb">
+			<property name="Extends" value="porchLight01" param1="HandleFace"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Model" value="Entities/Lighting/streetLamp_ClassicPrefab"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="MultiBlockDim" value="1,5,1"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="ImposterExchange" value="imposterDontBlockCTRPole" param1="169"/>
+			<property name="OnlySimpleRotations" value="true"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="4,6" tag="salvageHarvest"/>
+			<drop event="Destroy" name="resourceScrapIron" count="1,15"/>
+		</block>
+
+		<block name="spotlightNailedDownPOIb">
+			<property name="Class" value="Light"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="DescriptionKey" value="lightPOIGroupDesc"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Model" value="Entities/Electrical/spotlightStaticPrefab"/>
+			<property name="Place" value="Spotlight"/>
+			<property name="ImposterDontBlock" value="true"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+			<property name="IsTerrainDecoration" value="true"/>
+			<property class="RepairItems">
+				<property name="resourceElectricParts" value="6"/>
+				<property name="resourceScrapIron" value="40"/>
+			</property>
+			<drop event="Harvest" name="resourceScrapIron" count="24,30" tag="allHarvest"/>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+			<drop event="Harvest" name="resourceElectricParts" count="3" tag="salvageHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+			<property name="TakeDelay" value="-1"/>
+			<property name="Group" value="Science"/>
+			<property name="FilterTags" value="fdecor,felectrical"/>
+			<property name="SortOrder1" value="70a0"/>
+		</block>
+
+		<block name="signPillsLogob">
+			<property name="Extends" value="porchLight01"/>
+			<property name="CreativeMode" value="Dev"/> <!-- does NOT extend -->
+			<property name="Model" value="Entities/Lighting/sign_pills_logoPrefab"/> <property name="HandleFace" value="South"/>
+			<property name="CustomIcon" value="signPillsLogoSmall"/>
+		</block>
+
+		<block name="signPillsLogoSmallb">
+			<property name="Extends" value="porchLight01"/>
+			<property name="CreativeMode" value="Dev"/> <!-- does NOT extend -->
+			<property name="Model" value="Entities/Lighting/sign_pills_logo_smallPrefab"/> <property name="HandleFace" value="South"/>
+		</block>
+
+		<block name="signShopOpenb">
+			<property name="Class" value="Light" />
+			<property name="DescriptionKey" value="lightPOIGroupDesc" />
+			<property name="IndexName" value="TraderOnOff" />
+			<property name="CustomIcon" value="signShopOpenSwitch" />
+			<property name="StabilitySupport" value="false" /> <!-- build restriction -->
+			<property name="Shape" value="ModelEntity" />
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket" />
+			<property name="Model" value="Entities/Signs/sign_open_Prefab" /> <property name="HandleFace" value="South" />
+			<property name="ImposterDontBlock" value="true" />
+			<property name="Material" value="Mmetal_weak" />
+			<property name="OnlySimpleRotations" value="true" />
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
+			<drop event="Harvest" name="resourceElectricParts" count="2" prob="0.7" tag="salvageHarvest" />
+			<drop event="Harvest" name="resourceScrapPolymers" count="2" prob="0.8" tag="salvageHarvest" />
+			<drop event="Destroy" name="resourceScrapIron" count="1,5" />
+			<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1" />
+			<property name="TakeDelay" value="-1" />
+			<property name="Group" value="Science,Decor/Miscellaneous" />
+			<property name="EconomicValue" value="150" /> <!-- disassemble value -->
+			<property name="FilterTags" value="fdecor,fsigns,fother,felectrical" />
+			<property name="SortOrder1" value="70s0" />
+
+				<property name="CanPickup" value="true"><!--Element appended by: "DrsA19PickItUp"--></property>
+				<property name="Weight" value="60"><!--Element appended by: "DrsA19PickItUp"--></property>
+		</block>
+		
+		<block name="xRayDisplayLight1b">
+			<property name="Extends" value="porchLight01" />
+			<property name="Model" value="Entities/Lighting/xray_displayPrefab" /> <property name="HandleFace" value="South" />
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
+			<drop event="Harvest" name="resourceElectricParts" count="3,6" tag="salvageHarvest" /> <!-- HV: electronics -->
+			<drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest" />
+			<drop event="Destroy" name="resourceScrapIron" count="2" />
+			<drop event="Fall" count="0" prob="0" />
+		</block>
+
+		<block name="xRayDisplayLight2b">
+			<property name="Extends" value="xRayDisplayLight1" />
+			<property name="Model" value="Entities/Lighting/xray_display_2Prefab" />
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
+			<drop event="Harvest" name="resourceElectricParts" count="3,6" tag="salvageHarvest" /> <!-- HV: electronics -->
+			<drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest" />
+		</block>
+		
+	
+	<!-- <append xpath="/blocks/block[@name='glassBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,glassBusinessWedgeIncline,glassBusinessWedge,glassBusinessWedgeTip</append> -->
+	
+	</append>
+		
+	
+	<!-- Remove the Lit models -->	
+	<remove xpath="/blocks/block[@name='signShopGasLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopGasWallLit']/property[@name='Model']" />			
+	<remove xpath="/blocks/block[@name='signShopGasLargeLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopGasLargeWallLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopGunStoreLit']/property[@name='Model']" />	
+	<remove xpath="/blocks/block[@name='signShopGunStoreWallLit']/property[@name='Model']" />		
+	<remove xpath="/blocks/block[@name='signShopGunStoreLargeLit']/property[@name='Model']" />	
+	<remove xpath="/blocks/block[@name='signShopGunStoreLargeWallLit']/property[@name='Model']" />	
+	<remove xpath="/blocks/block[@name='signShopBookStoreLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopBookStoreWallLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopBookStoreLargeLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopBookStoreLargeWallLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopPharmacyLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopPharmacyWallLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopPharmacyLargeLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopPharmacyLargeWallLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopToolStoreLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopToolStoreWallLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopToolStoreLargeLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopToolStoreLargeWallLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopGroceryLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopGroceryWallLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopGroceryLargeLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopGroceryLargeWallLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopSavageCountryLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopSavageCountryWallLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopSavageCountryLargeLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopSavageCountryLargeWallLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopMoPowerElectronicsLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopMoPowerElectronicsWallLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopMoPowerElectronicsLargeLit']/property[@name='Model']" />
+	<remove xpath="/blocks/block[@name='signShopMoPowerElectronicsLargeWallLit']/property[@name='Model']" />
+	
+</configs>

@@ -1,0 +1,12 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="ChickenNest" count="1">
+			<ingredient name="foodEgg" count="1"/>
+			<ingredient name="resourceYuccaFibers" count="5"/>			
+		</recipe>
+		<recipe name="ChickenHatchery" count="1">
+			<ingredient name="foodEgg" count="12"/>
+			<ingredient name="resourceYuccaFibers" count="20"/>			
+		</recipe>		
+	</append>
+</configs>

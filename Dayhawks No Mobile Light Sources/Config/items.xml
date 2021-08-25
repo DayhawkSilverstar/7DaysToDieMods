@@ -1,0 +1,7 @@
+<configs>
+	<!-- Light Sources -->
+	<remove xpath="/items/item[@name='meleeToolFlashlight02']" />
+	<remove xpath="/items/item[@name='modMeleeClubBurningShaftSchematic']" />
+	<remove xpath="/items/item[@name='modGunFlashlightSchematic']" />
+	<remove xpath="/items/item[@name='modArmorHelmetLightSchematic']" />
+</configs>

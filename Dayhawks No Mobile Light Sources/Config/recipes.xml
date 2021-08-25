@@ -1,0 +1,6 @@
+<configs>
+	<remove xpath="/recipes/recipe[@name='modMeleeClubBurningShaft']"/>	
+	<remove xpath="/recipes/recipe[@name='meleeToolFlashlight02']"/>
+	<remove xpath="/recipes/recipe[@name='modArmorHelmetLight']"/>
+	<remove xpath="/recipes/recipe[@name='modGunFlashlight']"/>
+</configs>

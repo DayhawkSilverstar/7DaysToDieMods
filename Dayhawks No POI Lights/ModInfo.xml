@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="No Lights In POIs" />
+		<Description value="The grid is not that reliable and would have failed." />
+		<Author value="Dayhawk" />
+		<Version value="1.0" />
+		
+	</ModInfo>
+</xml>

@@ -1,0 +1,7 @@
+<configs>
+	<set xpath="/quests/quest[@id='tier1_fetch']/property[@name='difficulty_tier']/@value">2</set>
+	<set xpath="/quests/quest[@id='tier1_clear']/property[@name='difficulty_tier']/@value">2</set>
+	<set xpath="/quests/quest[@id='tier1_buried_supplies']/property[@name='difficulty_tier']/@value">2</set>
+
+
+</configs>

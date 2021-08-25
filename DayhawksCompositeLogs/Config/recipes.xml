@@ -1,0 +1,9 @@
+<configs>	
+    <append xpath="/recipes">
+		<recipe name="CompositeLogs" craft_time = "45" count="1">			
+			<ingredient name="ammoGasCan" count="50" />
+			<ingredient name="resourceWood" count="10"/>
+			<ingredient name="resourcePaper" count="10"/>
+		</recipe>   
+	</append>
+</configs>

@@ -1,0 +1,26 @@
+<configs>	
+    <append xpath="/recipes">
+		<recipe name="CompleteBreakfast" count="1">			
+			<ingredient name="foodBaconAndEggs" count="2" />
+			<ingredient name="drinkJarCoffee" count="1"/>
+		</recipe>   
+		<recipe name="CompleteLunch" count="1">			
+			<ingredient name="foodBakedPotato" count="1" />
+			<ingredient name="foodPumpkinPie" count="1"/>
+			<ingredient name="drinkJarYuccaJuice" count="1"/>
+		</recipe>
+		<recipe name="CompleteDinner" count="1">			
+			<ingredient name="foodMeatStew" count="1" />
+			<ingredient name="foodCropGraceCorn" count="1"/>
+			<ingredient name="foodCropBlueberries" count="2"/>
+			<ingredient name="drinkJarRedTea" count="1"/>
+		</recipe>
+		<recipe name="CompleteBuffet" count="1">			
+			<ingredient name="foodGrilledMeat" count="5" />
+			<ingredient name="foodCropGraceCorn" count="3"/>
+			<ingredient name="foodSteakAndPotato" count="1"/>
+			<ingredient name="foodBlueberryPie" count="1"/>
+			<ingredient name="drinkJarPureMineralWater" count="1"/>
+		</recipe>
+	</append>
+</configs>

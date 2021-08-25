@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DayhawksNewFoods" />
+		<Description value="This modlet adds new recipes and loot to the traders and loot table." />
+		<Author value="Dayhawk" />
+		<Version value="1.0.0" />
+	</ModInfo>
+</xml>

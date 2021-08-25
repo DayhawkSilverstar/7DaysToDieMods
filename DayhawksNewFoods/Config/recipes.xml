@@ -1,0 +1,14 @@
+<configs>	
+    <append xpath="/recipes">
+		<recipe name="Grilled Mushrooms" count="1" craft_area="campfire" craft_tool="toolCookingGrill" craft_time="15">			
+			<ingredient name="foodCropMushrooms" count="5" />			
+		</recipe>
+		<recipe name="Vegan Fish Tacos" count="5" craft_area="campfire" craft_tool="toolCookingPot" craft_time="10">			
+			<ingredient name="Grilled Mushrooms" count="5"/>
+			<ingredient name="foodCornMeal" count="5"/>
+			<ingredient name="resourceYuccaFibers" count="10"/>
+			<ingredient name="foodCropYuccaFruit" count="5"/>
+			<ingredient name="drinkJarBeer" count="1"/>
+		</recipe>   
+	</append>
+</configs>

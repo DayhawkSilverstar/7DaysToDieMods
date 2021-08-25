@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Emitting Less Light" />
+		<Description value="The goal is to make items provide a bit less light for a more dark and creepy world." />
+		<Author value="Dayhawk" />
+		<Version value="1.0" />
+		
+	</ModInfo>
+</xml>

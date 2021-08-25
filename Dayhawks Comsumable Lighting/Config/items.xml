@@ -1,0 +1,9 @@
+<configs>
+	
+	<!-- Light Sources -->
+		
+		
+	<append xpath="/items" >
+	
+	</append>
+</configs>

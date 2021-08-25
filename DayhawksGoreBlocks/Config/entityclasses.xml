@@ -1,0 +1,28 @@
+<configs>
+<append xpath="/entity_classes/entity_class[@name='zombieTemplateMale']">
+<property name="CorpseBlock" value="goreBlockHumanCorpse1"/>
+<property name="CorpseBlockChance" value="0.25"/> 
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieSteveCrawler']">
+<property name="CorpseBlock" value="goreBlockHumanCorpse"/>
+<property name="CorpseBlockChance" value="0.25"/> 
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieSpider']">
+<property name="CorpseBlock" value="goreBlockHumanCorpse2"/>
+<property name="CorpseBlockChance" value="0.25"/> 
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieSoldier']">
+<property name="CorpseBlock" value="goreBlockHumanCorpse3"/>
+<property name="CorpseBlockChance" value="0.25"/> 
+</append>
+
+<append xpath="/entity_classes/entity_class[@name='zombieFatCop']">
+<property name="CorpseBlock" value="goreBlockAnimal"/>
+<property name="CorpseBlockChance" value="0.25"/> 
+</append>
+
+</configs>
+

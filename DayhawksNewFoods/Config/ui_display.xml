@@ -1,0 +1,12 @@
+<configs>
+<append xpath="/ui_display_info/item_display">
+
+		<item_display_info display_type="JarOfWine" display_group="groupConsumables">
+			<display_entry name="$waterAmountAdd" title_key="statWaterAmount"/>
+			<display_entry name="dStaminaRegen" title_key="statStaminaRegen" display_type="Percent"/>
+			<display_entry name="dCarryCapacity" title_key="statCarryCapacity" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+		</item_display_info>
+
+</append>
+</configs>

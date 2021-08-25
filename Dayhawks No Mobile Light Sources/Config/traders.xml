@@ -1,0 +1,68 @@
+<configs>
+	<!-- Remove the flashlight -->
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='traderGeneral']/item[@name='meleeToolFlashlight02']" />
+
+	<!-- Remove the gun flashlight -->
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='modGunT1']/item[@name='modGunFlashlight']" />
+	
+	<!-- Remove the helmet light -->
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='modArmorT1']/item[@name='modArmorHelmetLight']" />
+	
+	<removeattribute  xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorLightT1']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorLightT1']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorLightT1']/item[@name='armorMiningHelmet']/@quality"/>
+	
+	<removeattribute  xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorLightT2']/item[@name='armorMilitaryHelmet']/@mods"/>
+	<removeattribute  xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorLightT2']/item[@name='armorMilitaryHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorLightT2']/item[@name='armorMilitaryHelmet']/@quality"/>
+	
+	<removeattribute  xpath="/traders/trader_info[@id='1']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/traders/trader_info[@id='1']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/traders/trader_info[@id='1']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@quality"/>
+	
+	<removeattribute  xpath="/traders/trader_info[@id='1']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/traders/trader_info[@id='1']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/traders/trader_info[@id='1']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@quality"/>
+
+	<removeattribute  xpath="/traders/trader_info[@id='2']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/traders/trader_info[@id='2']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/traders/trader_info[@id='2']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@quality"/>
+	
+	<removeattribute  xpath="/traders/trader_info[@id='2']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/traders/trader_info[@id='2']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/traders/trader_info[@id='2']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@quality"/>
+	
+	<removeattribute  xpath="/traders/trader_info[@id='6']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/traders/trader_info[@id='6']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/traders/trader_info[@id='6']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@quality"/>
+	
+	<removeattribute  xpath="/traders/trader_info[@id='6']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/traders/trader_info[@id='6']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/traders/trader_info[@id='6']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@quality"/>
+	
+	<removeattribute  xpath="/traders/trader_info[@id='7']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/traders/trader_info[@id='7']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/traders/trader_info[@id='7']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@quality"/>
+	
+	<removeattribute  xpath="/traders/trader_info[@id='7']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/traders/trader_info[@id='7']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/traders/trader_info[@id='7']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@quality"/>
+	
+	<removeattribute  xpath="/traders/trader_info[@id='8']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/traders/trader_info[@id='8']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/traders/trader_info[@id='8']/tier_items[@level='4000,4999']/item[@name='armorMiningHelmet']/@quality"/>
+	
+	<removeattribute  xpath="/traders/trader_info[@id='8']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@mods"/>
+	<removeattribute  xpath="/traders/trader_info[@id='8']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@mod_chance"/>
+	<removeattribute  xpath="/traders/trader_info[@id='8']/tier_items[@level='5000,-1']/item[@name='armorMiningHelmet']/@quality"/>
+	
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorHeavyT2']/item[@name='armorSwatHelmet']" />
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='groupArmorHeavyT2']/item[@name='armorMiningHelmet']" />
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']/item[@name='modArmorHelmetLightSchematic']" />
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']/item[@name='modGunFlashlightSchematic']" />
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='schematicsModsCommon']/item[@name='modMeleeClubBurningShaftSchematic']" />
+	
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='autoGroup']/item[@name='meleeToolFlashlight02']" />
+	<remove xpath="/traders/trader_item_groups/trader_item_group[@name='modMeleeT2']/item[@name='modMeleeClubBurningShaft']" />
+	
+</configs>

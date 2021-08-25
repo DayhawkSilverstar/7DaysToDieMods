@@ -1,0 +1,3 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+CompositeLogs,items,,,,Composite Logs
+CompositeLogsDesc,items,,,,"Why burn just wood? Now you can wrap that wood in paper, pour gas all over and light that baby up!"

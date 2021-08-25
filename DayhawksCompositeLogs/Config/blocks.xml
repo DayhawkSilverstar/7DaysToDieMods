@@ -1,0 +1,12 @@
+<configs>
+	<append xpath="/blocks" >		
+		<block name="CompositeLogs">
+			<property name="Extends" value="modularFireWoodStackA"/>
+			<property name="CustomIcon" value="modularFireWoodStackA" />
+			<property name="CustomIconTint" value="250, 72, 32" />			
+			<property name="DescriptionKey" value="CompositeLogsDesc"/>
+			<property name="CanPickup" value="true"/>
+			<property name="FuelValue" value="6000"/>
+		</block>
+	</append>
+</configs>
