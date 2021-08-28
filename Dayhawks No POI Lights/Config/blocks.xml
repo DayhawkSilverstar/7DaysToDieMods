@@ -722,9 +722,6 @@
 			<property name="EconomicValue" value="150" /> <!-- disassemble value -->
 			<property name="FilterTags" value="fdecor,fsigns,fother,felectrical" />
 			<property name="SortOrder1" value="70s0" />
-
-				<property name="CanPickup" value="true"><!--Element appended by: "DrsA19PickItUp"--></property>
-				<property name="Weight" value="60"><!--Element appended by: "DrsA19PickItUp"--></property>
 		</block>
 		
 		<block name="xRayDisplayLight1b">
@@ -744,10 +741,6 @@
 			<drop event="Harvest" name="resourceElectricParts" count="3,6" tag="salvageHarvest" /> <!-- HV: electronics -->
 			<drop event="Harvest" name="resourceScrapPolymers" count="1,2" tag="salvageHarvest" />
 		</block>
-		
-	
-	<!-- <append xpath="/blocks/block[@name='glassBlockVariantHelper']/property[@name='PlaceAltBlockValue']/@value">,glassBusinessWedgeIncline,glassBusinessWedge,glassBusinessWedgeTip</append> -->
-	
 	</append>
 		
 	

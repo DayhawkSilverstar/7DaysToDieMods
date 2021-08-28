@@ -1,0 +1,9 @@
+<configs>	
+    <append xpath="/recipes">
+		<recipe name="LureGrenade" craft_time = "45" count="1">			
+			<ingredient name="thrownGrenade" count="1" />
+			<ingredient name="foodRawMeat" count="1"/>
+			<ingredient name="resourceDuctTape" count="1"/>
+		</recipe>   
+	</append>
+</configs>
