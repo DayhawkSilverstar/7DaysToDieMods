@@ -352,7 +352,7 @@
 		</block>
 
 		<block name="porchLight04b">
-			<property name="Extends" value="porchLight01b/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="CreativeMode" value="Dev"/> <!-- does NOT extend -->
 			<property name="Model" value="Entities/Lighting/porchLight04Prefab"/>
 		</block>
