@@ -11,7 +11,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="porchLight01b"/>
 		</insertAfter>
 		
@@ -19,7 +19,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="porchLight04b"/>
 		</insertAfter>
 
@@ -27,7 +27,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="porchLight04Brassb"/>
 		</insertAfter>
 		
@@ -35,7 +35,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="ceilingLight01b"/>
 		</insertAfter>
 		
@@ -43,7 +43,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="ceilingLight02b"/>
 		</insertAfter>
 		
@@ -51,7 +51,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="ceilingLight02Brassb"/>
 		</insertAfter>
 		
@@ -60,7 +60,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="ceilingLight04b"/>
 		</insertAfter>
 
@@ -68,7 +68,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="ceilingLight05b"/>
 		</insertAfter>
 
@@ -76,7 +76,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="ceilingLight05Brassb"/>
 		</insertAfter>
 
@@ -84,7 +84,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="recessedLightb"/>
 		</insertAfter>
 
@@ -92,7 +92,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="wallLight01b"/>
 		</insertAfter>
 
@@ -100,7 +100,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="ceilingLight07b"/>
 		</insertAfter>
 
@@ -108,7 +108,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="fluorescentLightb"/>
 		</insertAfter>
 
@@ -116,7 +116,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="trackLightb"/>
 		</insertAfter>
 
@@ -125,7 +125,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="industrialLight01b"/>
 		</insertAfter>
 
@@ -133,7 +133,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="sconce1Lightb"/>
 		</insertAfter>
 
@@ -141,7 +141,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="sconce1LightShadowb"/>
 		</insertAfter>
 
@@ -149,7 +149,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="lanternDecorLightb"/>
 		</insertAfter>
 
@@ -157,7 +157,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="flashlightDecorb"/>
 		</insertAfter>
 
@@ -165,7 +165,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="industrialLight02b"/>
 		</insertAfter>
 
@@ -173,7 +173,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="industrialLight02Redb"/>
 		</insertAfter>
 
@@ -181,7 +181,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="ceilingFanLightb"/>
 		</insertAfter>
 
@@ -190,7 +190,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="chandelierLightb"/>
 		</insertAfter>
 
@@ -199,7 +199,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="candelabraLightb"/>
 		</insertAfter>
 
@@ -207,7 +207,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="endTableLampb"/>
 		</insertAfter>
 
@@ -215,7 +215,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="signExitLightb"/>
 		</insertAfter>
 
@@ -223,7 +223,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="roadBarricadeLightb"/>
 		</insertAfter>
 
@@ -231,7 +231,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="deskLampLightb"/>
 		</insertAfter>
 
@@ -239,7 +239,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="tableLampLightb"/>
 		</insertAfter>
 
@@ -247,7 +247,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="tableLampTippedOverLightb"/>
 		</insertAfter>
 
@@ -255,7 +255,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="workLightPOIb"/>
 		</insertAfter>
 
@@ -264,7 +264,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="streetLight01b"/>
 		</insertAfter>
 
@@ -272,7 +272,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="streetLightClassicb"/>
 		</insertAfter>
 
@@ -281,7 +281,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="spotlightNailedDownPOIb"/>
 		</insertAfter>
 
@@ -289,7 +289,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="signPillsLogob"/>
 		</insertAfter>
 
@@ -297,7 +297,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="signPillsLogoSmallb"/>
 		</insertAfter>
 		
@@ -306,7 +306,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="signShopOpenb"/>
 		</insertAfter>
 		
@@ -314,7 +314,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="xRayDisplayLight1b"/>
 		</insertAfter>
 		
@@ -322,7 +322,7 @@
 			<property name="PlantGrowing.LightLevelGrow" value="0"/>
 			<property name="PlantGrowing.LightLevelStay" value="0"/>
 			<property name="PlantGrowing.FertileLevel" value="0"/>
-			<property name="PlantGrowing.GrowthRate" value="0.00001"/>
+			<property name="PlantGrowing.GrowthRate" value="0.1"/>
 			<property name="PlantGrowing.Next" value="xRayDisplayLight2b"/>
 		</insertAfter>
 
@@ -352,20 +352,20 @@
 		</block>
 
 		<block name="porchLight04b">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b/>
 			<property name="CreativeMode" value="Dev"/> <!-- does NOT extend -->
 			<property name="Model" value="Entities/Lighting/porchLight04Prefab"/>
 		</block>
 
 		<block name="porchLight04Brassb">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Model" value="Entities/Lighting/porchLight04BrassPrefab"/>
 			<drop event="Destroy" name="resourceScrapBrass" count="10,30"/>
 		</block>
 
 		<block name="ceilingLight01b">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Material" value="Mglass"/>
 			<property name="StabilitySupport" value="false"/> <!-- build restriction -->
@@ -374,49 +374,49 @@
 		</block>
 
 		<block name="ceilingLight02b">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Model" value="Entities/Lighting/ceilingLight02Prefab"/> <property name="HandleFace" value="Top"/>
 		</block>
 
 		<block name="ceilingLight02Brassb">
-			<property name="Extends" value="porchLight04Brass"/>
+			<property name="Extends" value="porchLight04Brassb"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Model" value="Entities/Lighting/ceilingLight02BrassPrefab"/> <property name="HandleFace" value="Top"/>
 		</block>
 
 		<block name="ceilingLight04b">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Model" value="Entities/Lighting/ceilingLight04Prefab"/> <property name="HandleFace" value="Top"/>
 		</block>
 
 		<block name="ceilingLight05b">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Model" value="Entities/Lighting/ceilingLight05Prefab"/> <property name="HandleFace" value="Top"/>
 		</block>
 
 		<block name="ceilingLight05Brassb">
-			<property name="Extends" value="porchLight04Brass"/>
+			<property name="Extends" value="porchLight04Brassb"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Model" value="Entities/Lighting/ceilingLight05BrassPrefab"/> <property name="HandleFace" value="Top"/>
 		</block>
 
 		<block name="recessedLightb">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Model" value="Entities/Lighting/recessedLightPrefab"/> <property name="HandleFace" value="Top"/>
 		</block>
 
 		<block name="wallLight01b">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Model" value="Entities/Lighting/wall_light01Prefab"/> <property name="HandleFace" value="South"/>
 		</block>
 
 		<block name="ceilingLight07b">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Model" value="Entities/Lighting/ceilingLight07Prefab"/>
 			<property name="HandleFace" value="Top"/>
@@ -432,7 +432,7 @@
 		</block>
 
 		<block name="fluorescentLightb">
-			<property name="Extends" value="ceilingLight07" param1="HandleFace"/>
+			<property name="Extends" value="ceilingLight07b" param1="HandleFace"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Model" value="Entities/Lighting/fluorescentLightPrefab"/>
 			<property name="MultiBlockDim" value="1,1,2"/><property name="DisplayType" value="blockMulti"/>
@@ -440,7 +440,7 @@
 		</block>
 
 		<block name="trackLightb">
-			<property name="Extends" value="ceilingLight07"/>
+			<property name="Extends" value="ceilingLight07b"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Model" value="Entities/Lighting/trackLightPrefab"/>
 			<property name="MultiBlockDim" value="1,1,3"/><property name="DisplayType" value="blockMulti"/>
@@ -475,40 +475,40 @@
 		</block>
 
 		<block name="sconce1Lightb">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Model" value="Entities/Lighting/sconce_1_Prefab"/>
 		</block>
 
 		<block name="sconce1LightShadowb">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="CustomIcon" value="sconce1Light"/>
 			<property name="Model" value="Entities/Lighting/sconce_1_ShadowPrefab"/>
 		</block>
 
 		<block name="lanternDecorLightb">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="Model" value="Entities/Lighting/lanternDecorPrefab"/>
 		</block>
 
 		<block name="flashlightDecorb">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="Model" value="Entities/Lighting/flashlightDecorPrefab"/> <property name="HandleFace" value="Bottom"/>
 		</block>
 
 		<block name="industrialLight02b">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="Model" value="Entities/Lighting/industrial_light_02Prefab"/> <property name="HandleFace" value="Top"/>
 		</block>
 
 		<block name="industrialLight02Redb">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="Model" value="Entities/Lighting/industrial_light_02_redPrefab"/> <property name="HandleFace" value="Top"/>
 		</block>
 
 		<block name="ceilingFanLightb">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="Path" value="solid"/>
 			<property name="Model" value="Entities/Lighting/ceiling_fanPrefab"/> <property name="HandleFace" value="Top"/>
 			<property class="RepairItems">
@@ -568,7 +568,7 @@
 		</block>
 
 		<block name="endTableLampb">
-			<property name="Extends" value="porchLight01" param1="HandleFace"/>
+			<property name="Extends" value="porchLight01b" param1="HandleFace"/>
 			<property name="DescriptionKey" value="furnitureGroupDesc"/>
 			<property name="Stacknumber" value="3"/>
 			<property name="Path" value="solid"/>
@@ -578,12 +578,12 @@
 		</block>
 
 		<block name="signExitLightb">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="Model" value="Entities/Lighting/exit_signPrefab"/> <property name="HandleFace" value="South"/>
 		</block>
 
 		<block name="roadBarricadeLightb">
-			<property name="Extends" value="porchLight01" param1="HandleFace"/>
+			<property name="Extends" value="porchLight01b" param1="HandleFace"/>
 			<property name="Material" value="Mmetal"/>
 			<property name="IsTerrainDecoration" value="true"/>
 			<property name="DisplayType" value="blockMulti"/>
@@ -599,23 +599,23 @@
 		</block>
 
 		<block name="deskLampLightb">
-			<property name="Extends" value="porchLight04Brass" param1="HandleFace"/>
+			<property name="Extends" value="porchLight04Brassb" param1="HandleFace"/>
 			<property name="Model" value="Entities/Lighting/desk_lampPrefab"/>
 			<drop event="Destroy" name="resourceScrapBrass" count="8,18"/>
 		</block>
 
 		<block name="tableLampLightb">
-			<property name="Extends" value="porchLight01" param1="HandleFace"/>
+			<property name="Extends" value="porchLight01b" param1="HandleFace"/>
 			<property name="Model" value="Entities/Lighting/table_lampPrefab"/>
 		</block>
 
 		<block name="tableLampTippedOverLightb">
-			<property name="Extends" value="porchLight01" param1="HandleFace"/>
+			<property name="Extends" value="porchLight01b" param1="HandleFace"/>
 			<property name="Model" value="Entities/Lighting/table_lamp_tipped_overPrefab"/>
 		</block>
 
 		<block name="workLightPOIb">
-			<property name="Extends" value="porchLight01" param1="HandleFace"/>
+			<property name="Extends" value="porchLight01b" param1="HandleFace"/>
 			<property name="Model" value="Entities/Lighting/work_lightPrefab"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="MultiBlockDim" value="1,2,1"/>
@@ -645,7 +645,7 @@
 		</block>
 
 		<block name="streetLightClassicb">
-			<property name="Extends" value="porchLight01" param1="HandleFace"/>
+			<property name="Extends" value="porchLight01b" param1="HandleFace"/>
 			<property name="CreativeMode" value="Dev"/>
 			<property name="Model" value="Entities/Lighting/streetLamp_ClassicPrefab"/>
 			<property name="DisplayType" value="blockMulti"/>
@@ -688,14 +688,14 @@
 		</block>
 
 		<block name="signPillsLogob">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="CreativeMode" value="Dev"/> <!-- does NOT extend -->
 			<property name="Model" value="Entities/Lighting/sign_pills_logoPrefab"/> <property name="HandleFace" value="South"/>
 			<property name="CustomIcon" value="signPillsLogoSmall"/>
 		</block>
 
 		<block name="signPillsLogoSmallb">
-			<property name="Extends" value="porchLight01"/>
+			<property name="Extends" value="porchLight01b"/>
 			<property name="CreativeMode" value="Dev"/> <!-- does NOT extend -->
 			<property name="Model" value="Entities/Lighting/sign_pills_logo_smallPrefab"/> <property name="HandleFace" value="South"/>
 		</block>
@@ -725,7 +725,7 @@
 		</block>
 		
 		<block name="xRayDisplayLight1b">
-			<property name="Extends" value="porchLight01" />
+			<property name="Extends" value="porchLight01b" />
 			<property name="Model" value="Entities/Lighting/xray_displayPrefab" /> <property name="HandleFace" value="South" />
 			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
 			<drop event="Harvest" name="resourceElectricParts" count="3,6" tag="salvageHarvest" /> <!-- HV: electronics -->
@@ -735,7 +735,7 @@
 		</block>
 
 		<block name="xRayDisplayLight2b">
-			<property name="Extends" value="xRayDisplayLight1" />
+			<property name="Extends" value="xRayDisplayLight1b" />
 			<property name="Model" value="Entities/Lighting/xray_display_2Prefab" />
 			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
 			<drop event="Harvest" name="resourceElectricParts" count="3,6" tag="salvageHarvest" /> <!-- HV: electronics -->
