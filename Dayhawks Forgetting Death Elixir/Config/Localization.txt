@@ -1,0 +1,2 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+drinkJarGrandpasForgettingElixirDeathTooltip,items,Admin,,,"The nightmare of your death is erased from your mind."

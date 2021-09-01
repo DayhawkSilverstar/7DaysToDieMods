@@ -1,0 +1,8 @@
+<xml>
+	<ModInfo>
+		<Name value="Dayhawks Forgetting Death Elixir" />
+		<Description value="Changes how the forgetting elixir works. It now removes the death penality." />
+		<Author value="Dayhawk" />
+		<Version value="1.0" />
+	</ModInfo>
+</xml>

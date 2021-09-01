@@ -1,0 +1,13 @@
+<configs>
+	<remove xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']/effect_group[@name='Drink Tier Trader']" />
+	<insertAfter xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']/property[@class='Action0']" >
+		<effect_group tiered="false" name="Drink Tier Trader">
+		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDrunkGrandpasForgettingElixir"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="player#death" play_in_head="true"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="PlaySound" sound="player_death_stinger" play_in_head="true"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ShowToolbeltMessage" message_key="drinkJarGrandpasForgettingElixirDeathTooltip"/>
+		</effect_group>
+	</insertAfter> 
+	
+</configs>

@@ -1,0 +1,35 @@
+<configs>
+	<append xpath="/buffs" >
+		<buff name="buffDrunkGrandpasForgettingElixir" hidden="true">
+			<duration value="30"/>
+			<effect_group>								
+				<triggered_effect trigger="onSelfBuffStart" action="AddBuff" target="self" buff="buffRemoveExpDebt"/>				
+			</effect_group>
+		</buff>
+		
+		<buff name="buffRemoveExpDebt" name_key="buffRemoveExpDebtName" icon="drinkJarGrandpasForgettingElixir" icon_color="65, 252, 3" hidden="false">
+			<stack_type value="ignore"/>
+			<update_rate value="1"/>						
+			<effect_group>			
+				<triggered_effect trigger="onSelfBuffUpdate" action="GiveExp" exp="10000">
+					<requirement name="CVarCompare" cvar="_expdeficit" operation="GTE" value="10000" /></triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="GiveExp" exp="2500">
+					<requirement name="CVarCompare" cvar="_expdeficit" operation="GTE" value="2500" /></triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="GiveExp" exp="600">
+					<requirement name="CVarCompare" cvar="_expdeficit" operation="GTE" value="600" /></triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="GiveExp" exp="150">
+					<requirement name="CVarCompare" cvar="_expdeficit" operation="GTE" value="150" /></triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="GiveExp" exp="40">
+					<requirement name="CVarCompare" cvar="_expdeficit" operation="GTE" value="40" /></triggered_effect>
+				<triggered_effect trigger="onSelfBuffUpdate" action="GiveExp" exp="10">
+					<requirement name="CVarCompare" cvar="_expdeficit" operation="GT" value="0" /></triggered_effect>
+			</effect_group>
+			<effect_group>		
+				<triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffRemoveExpDebt">
+					<requirement name="CVarCompare" cvar="_expdeficit" operation="LTE" value="0" />
+				</triggered_effect>
+			</effect_group>	
+		</buff>
+		
+	</append>
+</configs>
