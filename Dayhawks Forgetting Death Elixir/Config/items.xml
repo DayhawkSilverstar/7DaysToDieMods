@@ -1,5 +1,6 @@
 <configs>
 	<remove xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']/effect_group[@name='Drink Tier Trader']" />
+	<set xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']/property[@name='EconomicValue']/@value">3000</set>
 	<insertAfter xpath="/items/item[@name='drinkJarGrandpasForgettingElixir']/property[@class='Action0']" >
 		<effect_group tiered="false" name="Drink Tier Trader">
 		<requirement name="NotHasBuff" buff="buffIsOnFire"/>
