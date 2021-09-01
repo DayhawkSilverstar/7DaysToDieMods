@@ -1,2 +1,3 @@
 Key,File,Type,UsedInMainMenu,NoTranslate,english
 drinkJarGrandpasForgettingElixirDeathTooltip,items,Admin,,,"The nightmare of your death is erased from your mind."
+drinkJarGrandpasForgettingElixirDesc,items,,,,"This aweful drink can clear your mind of that death DREAM you had, restoring your confidence and allowing you to continue gaining new experience."
